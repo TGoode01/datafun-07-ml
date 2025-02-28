@@ -4,8 +4,9 @@
 # Ignore Visual Studio Code settings in the .vscode folder
 .vscode/
 
-# Ignore macOS specific files
-.DS_Store
+# Python Jupyter Notebook checkpoints and runtime files
+.ipynb_checkpoints/
+*.ipynb_meta/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
