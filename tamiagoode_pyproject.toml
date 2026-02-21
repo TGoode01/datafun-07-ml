@@ -1,0 +1,22 @@
+[project]
+name = "datafun-07-ml"
+version = "0.1.0"
+description = "Machine learning project exploring classification workflows."
+authors = [
+    { name="Tamia Goode" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "jupyter",
+    "ipykernel"
+]
+
+[tool.setuptools]
+packages = []
