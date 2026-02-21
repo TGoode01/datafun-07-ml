@@ -43,3 +43,16 @@ The purpose of this project is to strengthen practical machine learning skills a
 ```bash
 git clone https://github.com/TGoode01/datafun-07-ml
 cd datafun-07-ml
+
+---
+
+## 2️⃣ Create a Virtual Environment
+
+Creating a virtual environment ensures that project dependencies remain isolated.
+
+```bash
+python -m venv .venv
+
+.venv\Scripts\activate
+source .venv/bin/activate
+
