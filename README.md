@@ -1,24 +1,45 @@
-# datafun-07-ml
+# DataFun 07 – Machine Learning Project
 
-### Clone Repo To Your Machine
+## Project Overview
 
-Clone your new GitHub repository down to your machine, into the Documents folder. Use your favorite method
-```
-git clone https://github.com/TGoode01/datafun-07-ml 
-```
-## Create .gitignore file 
-```
-# Python virtual environment
-.venv/
+This project explores foundational machine learning concepts using Python and Scikit-learn.  
+It walks through the complete ML workflow: data exploration, preprocessing, model training, evaluation, and interpretation.
 
-# Visual Studio Code settings and workspace
-.vscode/
+The purpose of this project is to strengthen practical machine learning skills and demonstrate the ability to:
 
-# Compiled Python files
-__pycache__/
+- Perform exploratory data analysis (EDA)
+- Prepare data for modeling
+- Train and evaluate classification models
+- Interpret model performance metrics
 
-# Python Jupyter Notebook checkpoints and runtime files
-.ipynb_checkpoints/
-*.ipynb_meta/
-```
-## Install Requirements.txt 
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Scikit-learn
+- Jupyter Notebook
+- VS Code
+- Git & GitHub
+
+---
+
+## Project Workflow
+
+1. Data Loading 
+2. Data Cleaning  
+3. Exploratory Data Analysis  
+4. Model Training  
+5. Model Evaluation  
+6. Conclusions & Insights  
+
+
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/TGoode01/datafun-07-ml
+cd datafun-07-ml
