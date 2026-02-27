@@ -38,7 +38,7 @@ The purpose of this project is to strengthen practical machine learning skills a
 
 
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/TGoode01/datafun-07-ml
@@ -46,7 +46,7 @@ cd datafun-07-ml
 
 ---
 
-## 2️⃣ Create a Virtual Environment
+## Create a Virtual Environment
 
 Creating a virtual environment ensures that project dependencies remain isolated.
 
@@ -56,3 +56,18 @@ python -m venv .venv
 .venv\Scripts\activate
 source .venv/bin/activate
 
+
+
+### Part 2 - Prediction (SciPy)
+- Dataset: Historical average high temperatures in NYC for January (1895–2018)
+- Method: Linear Regression using SciPy
+- Goal: Predict the average high temperature in January 2024
+- Key Steps:
+  1. Load CSV into DataFrame (`nyc_df`)
+  2. Inspect and clean data (Year column, missing values)
+  3. Compute descriptive statistics
+  4. Build linear regression model (`slope`, `intercept`)
+  5. Predict value for 2024
+  6. Visualize scatter plot with best-fit line
+
+**Predicted Avg High Temp for Jan 2024:** 38.59°F
